@@ -1,0 +1,10 @@
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\bin\Debug\Starting_Interface.exe.config
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\bin\Debug\Starting_Interface.exe
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\bin\Debug\Starting_Interface.pdb
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.csprojAssemblyReference.cache
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.Form1.resources
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.Properties.Resources.resources
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.csproj.GenerateResource.cache
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.csproj.CoreCompileInputs.cache
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.exe
+D:\Zaheer Projects\Drugs Preventing App\Drug Preventing App\Starting_Interface\obj\Debug\Starting_Interface.pdb

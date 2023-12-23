@@ -1,0 +1,39 @@
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.exe.config
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.exe
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.pdb
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csprojAssemblyReference.cache
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Properties.Resources.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csproj.GenerateResource.cache
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csproj.CoreCompileInputs.cache
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.exe
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.pdb
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.AddUser.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Login.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Menu.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.OtherComplains.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.OtherFilter.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Person_Filter.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.PersonComplains.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.PlaceComplain.resources
+D:\Zaheer\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.PlaceFilter.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.exe.config
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.exe
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\bin\Debug\Drugs Preventing Administor App.pdb
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csprojAssemblyReference.cache
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Login.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Properties.Resources.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csproj.GenerateResource.cache
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.csproj.CoreCompileInputs.cache
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.exe
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs Preventing Administor App.pdb
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Complains.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.Default_Form.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.PlaceComplian.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.VictimComplain.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.DrugDealerComplain.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.OtherComplain.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.ChangePassword.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.ManageUser.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.MenuAdmin.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.MenuUser.resources
+D:\Zaheer Projects\Drugs Preventing App\Main Software\Drugs Preventing Administor App\Drugs Preventing Administor App\obj\Debug\Drugs_Preventing_Administor_App.PublicProfileManagement.resources

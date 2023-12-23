@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E1B13C1-BFED-4B3E-9D23-8A97B3BDAA40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Starting_Interface</RootNamespace>
+    <AssemblyName>Starting_Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="complain1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complain1.Designer.cs">
+      <DependentUpon>complain1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complain2Drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complain2Drug.Designer.cs">
+      <DependentUpon>Complain2Drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complain_Form_Drug Dealer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complain_Form_Drug Dealer.Designer.cs">
+      <DependentUpon>complain_Form_Drug Dealer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complain_Form_Other.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complain_Form_Other.Designer.cs">
+      <DependentUpon>complain_Form_Other.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complain_Form_Victim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complain_Form_Victim.Designer.cs">
+      <DependentUpon>complain_Form_Victim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complain_Form_Place.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complain_Form_Place.Designer.cs">
+      <DependentUpon>complain_Form_Place.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact_Info.Designer.cs">
+      <DependentUpon>Contact_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileSettings.Designer.cs">
+      <DependentUpon>ProfileSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup_Form.Designer.cs">
+      <DependentUpon>Signup_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Starting_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Starting_Screen.Designer.cs">
+      <DependentUpon>Starting_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThankYou_Final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThankYou_Final.Designer.cs">
+      <DependentUpon>ThankYou_Final.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="complain1.resx">
+      <DependentUpon>complain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complain2Drug.resx">
+      <DependentUpon>Complain2Drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complain_Form_Drug Dealer.resx">
+      <DependentUpon>complain_Form_Drug Dealer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complain_Form_Other.resx">
+      <DependentUpon>complain_Form_Other.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complain_Form_Victim.resx">
+      <DependentUpon>complain_Form_Victim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complain_Form_Place.resx">
+      <DependentUpon>complain_Form_Place.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact_Info.resx">
+      <DependentUpon>Contact_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileSettings.resx">
+      <DependentUpon>ProfileSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup_Form.resx">
+      <DependentUpon>Signup_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Starting_Screen.resx">
+      <DependentUpon>Starting_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ThankYou_Final.resx">
+      <DependentUpon>ThankYou_Final.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Complain1.Designer.1" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-open-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-user-login-swiggy-5b24290687ba18.607449081529096454556.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-user-login-swiggy-5b24290687ba18.607449081529096454556.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-man-human-body-mobile-person-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu-header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

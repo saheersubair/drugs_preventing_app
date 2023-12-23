@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CCAD208-02AC-49FB-A2F6-157DD7A63B73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Drugs_Preventing_Administor_App</RootNamespace>
+    <AssemblyName>Drugs Preventing Administor App</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUser.Designer.cs">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complains.Designer.cs">
+      <DependentUpon>Complains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Default Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Default Form.Designer.cs">
+      <DependentUpon>Default Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrugDealerComplain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrugDealerComplain.Designer.cs">
+      <DependentUpon>DrugDealerComplain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrugPreventingAppDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DrugPreventingAppDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUser.Designer.cs">
+      <DependentUpon>MenuUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherComplain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherComplain.Designer.cs">
+      <DependentUpon>OtherComplain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicProfileManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicProfileManagement.Designer.cs">
+      <DependentUpon>PublicProfileManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VictimComplain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VictimComplain.Designer.cs">
+      <DependentUpon>VictimComplain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceComplian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaceComplian.Designer.cs">
+      <DependentUpon>PlaceComplian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUser.resx">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complains.resx">
+      <DependentUpon>Complains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Default Form.resx">
+      <DependentUpon>Default Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrugDealerComplain.resx">
+      <DependentUpon>DrugDealerComplain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUser.resx">
+      <DependentUpon>MenuUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherComplain.resx">
+      <DependentUpon>OtherComplain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicProfileManagement.resx">
+      <DependentUpon>PublicProfileManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VictimComplain.resx">
+      <DependentUpon>VictimComplain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaceComplian.resx">
+      <DependentUpon>PlaceComplian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DrugPreventingAppDataSet.xsc">
+      <DependentUpon>DrugPreventingAppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DrugPreventingAppDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DrugPreventingAppDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DrugPreventingAppDataSet.xss">
+      <DependentUpon>DrugPreventingAppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-man-human-body-mobile-person-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BASICAPP_1-39-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
